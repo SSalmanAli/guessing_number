@@ -1,6 +1,4 @@
-// 1) Computer will generate a random number  - done
-// 2) User input for guessing number - done
-// 3) Compare user input with computer generated number and show results - done
+#! /usr/bin/env node
 import inquirer from "inquirer";
 const randomNumber = Math.floor(Math.random() * 6 + 1);
 const answers = await inquirer.prompt([
@@ -17,3 +15,6 @@ else {
     console.log("Sorry you guessed it wrong");
 }
 ;
+// 1) Computer will generate a random number  - done
+// 2) User input for guessing number - done
+// 3) Compare user input with computer generated number and show results - done
